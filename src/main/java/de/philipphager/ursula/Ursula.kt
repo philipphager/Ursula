@@ -35,7 +35,6 @@ class Ursula {
             }, { page ->
                 println("Visited page: " + page.url)
                 println("Referenced pages: " + page.referencedUrls)
-                println("Thread: " + Thread.currentThread())
             })
         }
     }
